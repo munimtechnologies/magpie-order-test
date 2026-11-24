@@ -1,0 +1,225 @@
+{
+ "units": [
+  "DS",
+  "LH",
+  "LHDS",
+  "NL",
+  "NLDS",
+  "SH",
+  "SHDS"
+ ],
+ "groups": [
+  "BWYb",
+  "GON",
+  "JOG",
+  "MBG",
+  "NH",
+  "PR",
+  "RVD",
+  "SCL"
+ ],
+ "group_sizes": [
+  37,
+  7,
+  27,
+  18,
+  15,
+  51,
+  46,
+  23
+ ],
+ "n_types_P": 117,
+ "n_types_U": 117,
+ "n_records_D": 224,
+ "unmatched_types_not_in_any_group": [],
+ "periodic_types_U": 2,
+ "loop_positions_share_U": 0.029723991507430998,
+ "self_transitions_U": 0,
+ "return_rate_U": 0.2616033755274262,
+ "T0_P": {
+  "events": 588,
+  "sequences": 117,
+  "order1": {
+   "loglik": -861.0427097038103,
+   "contexts_seen": 8,
+   "k_observed": 40,
+   "k_full": 56,
+   "aic_observed": 1802.0854194076205,
+   "bic_observed": 1977.1544973235655,
+   "aic_full": 1834.0854194076205,
+   "bic_full": 2079.182128489944
+  },
+  "order2": {
+   "loglik": -764.0494675723465,
+   "contexts_seen": 42,
+   "k_observed": 95,
+   "k_full": 294,
+   "aic_observed": 1718.098935144693,
+   "bic_observed": 2133.8879951950626,
+   "aic_full": 2116.0989351446933,
+   "bic_full": 3402.856657826889
+  },
+  "prefers_order2": {
+   "aic_observed": true,
+   "bic_observed": false,
+   "aic_full": false,
+   "bic_full": false
+  },
+  "fires": true
+ },
+ "T0_U": {
+  "events": 588,
+  "sequences": 117,
+  "order1": {
+   "loglik": -861.0427097038103,
+   "contexts_seen": 8,
+   "k_observed": 40,
+   "k_full": 56,
+   "aic_observed": 1802.0854194076205,
+   "bic_observed": 1977.1544973235655,
+   "aic_full": 1834.0854194076205,
+   "bic_full": 2079.182128489944
+  },
+  "order2": {
+   "loglik": -764.0494675723465,
+   "contexts_seen": 42,
+   "k_observed": 95,
+   "k_full": 294,
+   "aic_observed": 1718.098935144693,
+   "bic_observed": 2133.8879951950626,
+   "aic_full": 2116.0989351446933,
+   "bic_full": 3402.856657826889
+  },
+  "prefers_order2": {
+   "aic_observed": true,
+   "bic_observed": false,
+   "aic_full": false,
+   "bic_full": false
+  },
+  "fires": true
+ },
+ "cv_P": {
+  "events": 588,
+  "L1_group": -915.4052015499242,
+  "mu_order1": 0.0,
+  "L2_group": -913.7091310015505,
+  "lambda_order2": 0.25,
+  "mu_order2": 0.0,
+  "G_group": 1.6960705483736547,
+  "L1_pooled": -915.4052015499242,
+  "L2_pooled": -913.7091310015505,
+  "lambda_pooled": 0.25,
+  "G_pooled": 1.6960705483736547
+ },
+ "cv_D": {
+  "events": 973,
+  "L1_group": -1433.2101351220554,
+  "mu_order1": 0.25,
+  "L2_group": -1433.2101351220554,
+  "lambda_order2": 0.0,
+  "mu_order2": 0.25,
+  "G_group": 0.0,
+  "L1_pooled": -1450.666299320307,
+  "L2_pooled": -1450.2304257636104,
+  "lambda_pooled": 0.25,
+  "G_pooled": 0.4358735566966061
+ },
+ "nulls": {
+  "H0a_first_order": {
+   "worlds": 999,
+   "generation_failures": 0,
+   "T0_fires": 999,
+   "T0_fire_rate": 1.0,
+   "G_group": {
+    "n": 999,
+    "mean": 0.0,
+    "q05": 0.0,
+    "q50": 0.0,
+    "q95": 0.0,
+    "max": 0.0
+   },
+   "G_pooled": {
+    "n": 999,
+    "mean": 6.903714435982762,
+    "q05": 2.2811017778936047,
+    "q50": 6.392269561593366,
+    "q95": 13.474958499702225,
+    "max": 25.8372061473342
+   },
+   "return_rate": {
+    "n": 999,
+    "mean": 0.23569382703013209,
+    "q05": 0.19539331896551726,
+    "q50": 0.23461538461538461,
+    "q95": 0.28001556420233464,
+    "max": 0.3384615384615385
+   },
+   "p_G_group": 1.0
+  },
+  "H0b_first_order_loops": {
+   "worlds": 999,
+   "generation_failures": 0,
+   "T0_fires": 999,
+   "T0_fire_rate": 1.0,
+   "G_group": {
+    "n": 999,
+    "mean": 0.0026971314849725953,
+    "q05": 0.0,
+    "q50": 0.0,
+    "q95": 0.0,
+    "max": 2.6944343534876225
+   },
+   "G_pooled": {
+    "n": 999,
+    "mean": 7.013534189907697,
+    "q05": 1.8445086625193654,
+    "q50": 6.557813211214807,
+    "q95": 13.795670802189667,
+    "max": 22.190461098181913
+   },
+   "return_rate": {
+    "n": 999,
+    "mean": 0.23894498815699614,
+    "q05": 0.19171347910004896,
+    "q50": 0.23754789272030652,
+    "q95": 0.2923361823361823,
+    "max": 0.3435114503816794
+   },
+   "p_G_group": 1.0
+  }
+ },
+ "power": {
+  "threshold_G_q95_H0b": 0.0,
+  "by_rho": {
+   "0.3": {
+    "worlds": 200,
+    "hits": 187,
+    "rate": 0.935,
+    "T0_fires": 200,
+    "generation_failures": 12
+   },
+   "0.6": {
+    "worlds": 200,
+    "hits": 200,
+    "rate": 1.0,
+    "T0_fires": 200,
+    "generation_failures": 8
+   }
+  }
+ },
+ "tests": {
+  "T0_reproduced": true,
+  "p_T1_beyond_pooling": 1.0,
+  "p_T2_beyond_pooling_and_loops": 1.0,
+  "power_rho_0.3": 0.935
+ },
+ "verdict": "POOLING_EXPLAINS",
+ "ledger": {
+  "procedure": "magpie-markov-aic",
+  "worlds_H0b": 999,
+  "fires_H0b": 999,
+  "worlds_H0a": 999,
+  "fires_H0a": 999
+ },
+ "seconds": 92.50681042671204
+}
